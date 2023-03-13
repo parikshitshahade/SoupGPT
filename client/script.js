@@ -77,7 +77,7 @@ function loader(element) {
         loader(messageDiv);
 
         
-        const response = await fetch('https://localhost:5000',{
+        const response = await fetch('https://soupgpt.onrender.com',{
 
         method:'POST',
         headers: {
